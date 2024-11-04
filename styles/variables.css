@@ -1,1 +1,29 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+  --basic-font: 'Inter';
+  --accent-font: 'PressStart2P';
+  --font-weight-title: 700;
+  --font-weight-content: 400;
+  --background-color: #fff;
+  --accent-color: #000;
+  --background-image:
+  repeating-linear-gradient(#d3d3d3, transparent 2px),
+  repeating-linear-gradient(90deg, #d3d3d3, transparent 2px),
+  linear-gradient(#e7e7e7 0.01%, #1a1a1a);
+  --size-title: clamp(3.063rem, 2.71rem + 1.5vw, 4.063rem);
+  --size-subtitle: clamp(0.875rem, 0.677rem + 0.85vw, 1.438rem);
+  --outline-color: rgb(255 255 255 / 0.5);
+  --button-text-color: #fff;
+  --contour-color: #000;
+  --fill-color: red;
+  --background-container-color: #fff;
+  --around-color: #000;
+  --cursor-color: rgb(0 0 0 / 0.6);
+  --menu-do-color: rgb(0 0 0 / 0.6);
+  --block-end-line-color: rgb(0 0 0 / 0.6);
+  --watermark-color: rgb(0 0 0 / 0.5);
+  --fill-shutter-color: #000;
+  --floppy-color: #fff;
+  --floppy-dialog-color: #000;
+}
