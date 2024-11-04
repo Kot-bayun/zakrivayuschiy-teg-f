@@ -296,6 +296,7 @@
 .like-icon .sparks {
   fill: var(--fill-color);
   transition-delay: 0s;
+  transition: fill 0.3s;
 }
 
 .like-icon.is-liked .core {
@@ -310,10 +311,6 @@
 .like-icon.is-liked .sparks {
   fill: var(--fill-color);
   animation: magic 0.3s ease-in alternate 0.3s;
-}
-
-.like-icon .sparks {
-  transition: fill 0.3s;
 }
 
 .card__like-button {
