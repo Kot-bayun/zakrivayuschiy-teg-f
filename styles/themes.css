@@ -11,16 +11,14 @@
   --font-weight-title: 700;
   --font-weight-content: 400;
   --background-image:
-  repeating-linear-gradient(#d3d3d3, transparent 2px),
-  repeating-linear-gradient(90deg, #d3d3d3, transparent 2px),
-  linear-gradient(#e7e7e7 0.01%, #1a1a1a);
+  repeating-linear-gradient(90deg, #d3d3d3, rgb(211 211 211 / 0) 2px),
+  repeating-linear-gradient(180deg, #e7e7e7 0.01%, #1a1a1a);
   --outline-color: rgb(255 255 255 / 0.5);
   --button-text-color: #fff;
   --contour-color: #000;
   --background-container-color: #fff;
   --around-color: #000;
-  --cursor-color: rgb(0 0 0 / 0.6);
-  --menu-do-color: rgb(0 0 0 / 0.6);
+  --selected-item: rgb(0 0 0 / 0.6);
   --block-end-line-color: rgb(0 0 0 / 0.6);
   --watermark-color: rgb(0 0 0 / 0.5);
   --fill-shutter-color: #000;
@@ -34,16 +32,14 @@
   --font-weight-title: 785;
   --font-weight-content: 465;
   --background-image:
-  repeating-linear-gradient(#000, transparent 2px),
-  repeating-linear-gradient(90deg, #000, transparent 2px),
-  linear-gradient(#007f0c, #004306);
+  repeating-linear-gradient(90deg,#000, rgb(0 0 0 / 0) 2px),
+  repeating-linear-gradient(180deg, #007f0c, #004306);
   --outline-color: rgb(0 0 0 / 0.5);
   --button-text-color: #00cc14;
   --contour-color: #00cc14;
   --background-container-color: #000;
   --around-color: #00cc14;
-  --cursor-color: rgb(0 204 20 / 0.6);
-  --menu-do-color: rgb(0 204 20 / 0.6);
+  --selected-item: rgb(0 204 20 / 0.6);
   --block-end-line-color: rgb(0 204 20 / 0.6);
   --watermark-color: rgb(0 204 20 / 0.5);
   --fill-shutter-color: #00cc14;
@@ -58,16 +54,14 @@
     --font-weight-title: 785;
     --font-weight-content: 465;
     --background-image:
-    repeating-linear-gradient(#000, transparent 2px),
-    repeating-linear-gradient(90deg, #000, transparent 2px),
-    linear-gradient(#007f0c, #004306);
+    repeating-linear-gradient(90deg,#000, rgb(0 0 0 / 0) 2px),
+    repeating-linear-gradient(180deg, #007f0c, #004306);
     --outline-color: rgb(0 0 0 / 0.5);
     --button-text-color: #00cc14;
     --contour-color: #00cc14;
     --background-container-color: #000;
     --around-color: #00cc14;
-    --cursor-color: rgb(0 204 20 / 0.6);
-    --menu-do-color: rgb(0 204 20 / 0.6);
+    --selected-item: rgb(0 204 20 / 0.6);
     --watermark-color: rgb(0 204 20 / 0.5);
     --fill-shutter-color: #00cc14;
     --floppy-color: #00cc14;
