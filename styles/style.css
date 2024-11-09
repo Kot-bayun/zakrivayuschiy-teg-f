@@ -36,7 +36,7 @@
   justify-content: center;
   inline-size: clamp(375px, 100%, 696px);
   margin: 102px auto;
-  outline: 1px solid var(--around-color);
+  outline: 2px solid var(--around-color);
   background-color: var(--background-container-color);
   font-family: var(--accent-font), fantasy;
 }
@@ -140,7 +140,7 @@
 .subtitle {
   margin: 6px 0 7px 10px;
   font-size: 18px;
-  font-variation-settings: var(--font-weight-title);
+  font-variation-settings: 'wght' var(--font-weight-title);
 }
 
 @media (width <= 375px) {
@@ -159,7 +159,7 @@
   block-size: 696px;
   object-fit: cover;
   line-height: 0%;
-  outline: 1px solid var(--around-color);
+  outline: 2px solid var(--around-color);
 }
 
 @media (width <= 375px) {
@@ -205,7 +205,7 @@
   margin: 26px 24px 24px 26px;
   font-size: 18px;
   line-height: 117%;
-  font-variation-settings: var(--font-weight-content);
+  font-variation-settings: 'wght' var(--font-weight-content);
 }
 
 @media (width <= 375px) {
@@ -301,13 +301,8 @@
   transition: fill 0.3s linear;
 }
 
-.sparks {
-  opacity: 0;
-}
-
 .like-icon .sparks {
-  fill: var(--fill-color);
-  transition: fill 0.3s linear;
+  opacity: 0;
 }
 
 .like-icon.is-liked .sparks {
